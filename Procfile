@@ -1,0 +1,1 @@
+web: java -jar target/springbootcarseller-2.0.jar
