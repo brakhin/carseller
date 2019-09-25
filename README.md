@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # carseller_spring_boot
 
 Text here
@@ -36,3 +37,6 @@ $ heroku open
 For more information about using Java on Heroku, see these Dev Center articles:
 
 - [Java on Heroku](https://devcenter.heroku.com/categories/java)
+=======
+# carseller
+>>>>>>> 640fcc367c7664f9f96301bf2ebe9284caf712e4
