@@ -44,13 +44,13 @@ public class CarsController {
     @Autowired
     private ICarModelService carModelService;
 
-    @GetMapping("/cars")
+    @GetMapping("/")
     public String showItems(ModelMap model, Principal principal) {
         loadData(null, model, principal);
         return "cars";
     }
 
-    @PostMapping("/cars")
+    @PostMapping("/")
     public String setFilter(@ModelAttribute UserFilter filter, ModelMap model, Principal principal) {
         loadData(filter, model, principal);
         return "cars";
